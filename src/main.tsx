@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client'
 import { App } from './App.tsx'
 import './index.css'
 import { ProvedorMeuContexto } from './contexto/Contexto.tsx'
+import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ProvedorMeuContexto>
-      <App />
-    </ProvedorMeuContexto>
+      <BrowserRouter>
+        <App /> 
+      </BrowserRouter>          
+    </ProvedorMeuContexto>    
   </React.StrictMode>,
 )
