@@ -1,13 +1,13 @@
 import { createContext, useState } from "react";
 
 
-
-
-
-
 export const MeuContexto = createContext({})
 
-export function ProvedorMeuContexto( { children } ) {
+interface propsProvedorMeuContexto {
+  children: JSX.Element
+}
+
+export function ProvedorMeuContexto( { children }: propsProvedorMeuContexto ) {
 
   const [teste, setTeste] = useState('contexto funcionando')
 
