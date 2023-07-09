@@ -1,0 +1,53 @@
+.header {
+  background-color: var(--color-pink);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  color: var(--color-white);
+}
+
+.boxLogo {
+  display: flex;
+  align-items: center;
+}
+
+.imgLogo {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.entrarMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnEntrar {
+  background-color: transparent;
+  border: 2px solid var(--color-white);
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  color: var(--color-white);
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.btnEntrar:hover {
+  cursor: pointer;
+}
+
+.listaHeader {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.itemListaHeader {
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--color-white);
+}
