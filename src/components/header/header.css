@@ -96,4 +96,24 @@
     border-radius: 50%;
     margin-right: 8px;
   }
+
+  nav {
+    z-index: 100;
+  }
+
+  .listaHeader {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 200px;
+    background-color: var(--color-pink);
+    border-radius: 20px;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .itemListaHeader {
+    font-size: 18px;
+    margin-right: 40px;
+    
+  }
 }

@@ -35,21 +35,21 @@ export function Header() {
         <nav>
         <ul className='listaHeader'>
           <li>
-            <Link className='itemListaHeader' to='/'>Home</Link>
+            <Link onClick={toggleShow} className='itemListaHeader' to='/'>Home</Link>
           </li>
           <li >
-            <Link className='itemListaHeader' to='/perfil'>Perfil</Link>
+            <Link onClick={toggleShow} className='itemListaHeader' to='/perfil'>Perfil</Link>
           </li>
           <li >
-            <Link className='itemListaHeader' to='/posts'>Posts</Link>
+            <Link onClick={toggleShow} className='itemListaHeader' to='/posts'>Posts</Link>
           </li>
           <li>
-            <Link className='itemListaHeader' to='/amigos'>Amigos</Link>
+            <Link onClick={toggleShow} className='itemListaHeader' to='/amigos'>Amigos</Link>
           </li>
           <li>
-            <Link className='itemListaHeader'  to='/adicionaramizade'>Adicionar amizades</Link>
+            <Link onClick={toggleShow} className='itemListaHeader'  to='/adicionaramizade'>Adicionar amizades</Link>
           </li>
-          <li onClick={toggleShow} id='fecharNav'>X</li>
+          <li onClick={toggleShow} className='itemListaHeader' id='fecharNav'>X</li>
         </ul>
       </nav>}
 
