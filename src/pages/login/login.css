@@ -81,3 +81,9 @@
 .cadastreSe:hover {
   cursor: pointer;
 }
+
+@media (max-width: 700px) {
+  .boxLogin {
+    padding: 30px;
+  }
+}
