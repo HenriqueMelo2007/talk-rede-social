@@ -1,0 +1,49 @@
+.postHome {
+  margin: 60px auto;
+  background-color: var(--color-white);
+  width: 50%;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.headerHome {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fotoPerfil {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+textarea {
+  background-color: rgb(192, 192, 192);
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.publicar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-pink);
+}
+
+.btnPublicar {
+  background-color: var(--color-pink);
+  color: var(--color-white);
+  border-radius: 6px;
+  padding: 7px 18px;
+  font-size: 17px;
+}
+
+.btnPublicar:hover {
+  cursor: pointer;
+}
