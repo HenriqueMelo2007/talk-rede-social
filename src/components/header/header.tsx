@@ -27,7 +27,7 @@ export function Header() {
 
         {showBtnIcon && 
         <div className='divEntrarHamburguer'>
-          <button className='btnEntrar'>Entrar</button>
+          <Link className='btnEntrar' to='/login'>Entrar</Link>
           <img onClick={toggleShow} className='iconHamburguer' src={iconHamburguer} alt="" />
         </div>}
 
