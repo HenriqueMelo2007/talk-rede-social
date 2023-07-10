@@ -15,12 +15,12 @@ export function Login () {
         </div>
 
         <div className="boxLoginBtn">
-          <Link to='/'>Entrar</Link>
+          <Link className="loginBtn" to='/'>Entrar</Link>
         </div>
 
         <div className="boxLoginCadastro">
           <p>Não possui conta?</p>
-          <span>Cadastre-se</span>
+          <span className="cadastreSe">Cadastre-se</span>
         </div>
       </div>
 
