@@ -5,6 +5,7 @@ import { Perfil } from "./pages/perfil/perfil";
 import { Amigos } from "./pages/amigos/amigos";
 import { Posts } from "./pages/posts/posts";
 import { AdicionarAmizade } from "./pages/adicionar-amizade/adicionaramizade";
+import { Login } from "./pages/login/login";
 
 
 export function App() {
@@ -22,6 +23,7 @@ export function App() {
       <Route path="/posts" Component={Posts}></Route>
       <Route path="/amigos" Component={Amigos}></Route>
       <Route path="/adicionaramizade" Component={AdicionarAmizade}></Route>
+      <Route path="/login" Component={Login}></Route>
     </Routes>
 
       
