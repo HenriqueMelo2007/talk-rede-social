@@ -1,6 +1,6 @@
 .header {
   background-color: var(--color-pink);
-  height: 10vh;
+  height: 11vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,20 +34,48 @@
   color: var(--color-white);
   border-radius: 20px;
   padding: 5px 20px;
+  margin-right: 20px;
 }
 
 .btnEntrar:hover {
+  cursor: pointer;
+  background-color: var(--color-white);
+  color: var(--color-pink);
+}
+
+.iconHamburguer {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.iconHamburguer:hover {
   cursor: pointer;
 }
 
 .listaHeader {
   display: flex;
   list-style: none;
-  gap: 30px;
+  align-items: center;
+  gap: 25px;
 }
 
 .itemListaHeader {
   font-size: 20px;
   text-decoration: none;
   color: var(--color-white);
+}
+
+.divEntrarHamburguer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fecharNav {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#fecharNav:hover {
+  cursor: pointer;
 }
