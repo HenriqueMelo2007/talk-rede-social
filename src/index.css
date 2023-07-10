@@ -14,3 +14,20 @@ body {
   background-color: rgb(0, 0, 0);
   font-family: var(--font-roboto);
 }
+
+.fotoPerfil {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.nomeUsuario {
+  color: var(--color-pink);
+}
+
+.pageTittle {
+  color: rgb(101, 101, 101);
+  margin: 50px;
+  font-size: 40px;
+}

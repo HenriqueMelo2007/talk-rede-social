@@ -1,5 +1,5 @@
 export function AdicionarAmizade () {
   return (
-    <h1>add page</h1>
+    <h2 className="pageTittle">Adicione amigos</h2>
   )
 }

@@ -1,5 +1,5 @@
 export function Posts () {
   return (
-    <h1>posts page</h1>
+    <h2 className='pageTittle'>Você não possui posts no momento</h2>
   )
 }

@@ -13,13 +13,6 @@
   margin-bottom: 20px;
 }
 
-.fotoPerfil {
-  height: 50px;
-  width: 50px;
-  background-color: gray;
-  border-radius: 50%;
-}
-
 textarea {
   background-color: rgb(192, 192, 192);
   width: 100%;

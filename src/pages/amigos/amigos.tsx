@@ -1,5 +1,5 @@
 export function Amigos () {
   return (
-    <h1>amigos</h1>
+    <h2 className="pageTittle">Você não possui amigos no momento</h2>
   )
 }
