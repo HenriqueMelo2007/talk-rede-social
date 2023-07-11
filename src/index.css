@@ -1,5 +1,5 @@
 :root {
-  --color-pink: #ff005c;
+  --color-green: #00d624;
   --color-white: rgb(255, 255, 255);
   --font-roboto: 'Roboto', sans-serif;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .nomeUsuario {
-  color: var(--color-pink);
+  color: var(--color-green);
 }
 
 .pageTittle {

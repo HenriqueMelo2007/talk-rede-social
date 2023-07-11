@@ -19,8 +19,8 @@ export function Header() {
     <header className='header'>
 
       <div className='boxLogo'>
-        <img className='imgLogo' src="https://cdn.discordapp.com/attachments/1126699315247722506/1127608165480018030/w-logo-rose.gif" alt="Logo Walk" />
-        <h1 className='tittleLogo'>Walk</h1>
+        <img className='imgLogo' src="https://img.freepik.com/icones-gratis/juncao-t_318-533846.jpg?w=2000" alt="Logo Walk" />
+        <h1 className='tittleLogo'>Talk</h1>
       </div>
 
       <div className="entrarMenu">
