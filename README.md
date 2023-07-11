@@ -16,19 +16,19 @@ Make sure you have Vite installed globally on your machine before proceeding.
 
 ## Layout
 
-![preview](src/assets/pagina-inicial-react-blog.png)
+![preview](src/assets/readme-preview-01.png)
 
 #
 
-![preview](src/assets/anotacoes-react-blog.png)
+![preview](src/assets/readme-preview-02.png)
 
 ## Layout Mobile
 
-![preview](src/assets/anotacoes-react-blog.png)
+![preview](src/assets/readme-preview-03-mobile.png)
 
 #
 
-![preview](src/assets/anotacoes-react-blog.png)
+![preview](src/assets/readme-preview-04-mobile.png)
 
 ## Technologies Used
 
